@@ -5,6 +5,14 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem", "BankAccountSystem\BankAccountSystem.csproj", "{382F0EC8-C075-487C-BC7E-677E60102044}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem.Domain", "BankAccountSystem.Domain\BankAccountSystem.Domain.csproj", "{7439FDB3-5CD7-41F6-84BD-9C400C91AE11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem.Infrastructure", "BankAccountSystem.Infrastructure\BankAccountSystem.Infrastructure.csproj", "{96870CFE-C2E3-49CA-98E6-0BAEC9208FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem.Application", "BankAccountSystem.Application\BankAccountSystem.Application.csproj", "{CF8E2CA7-08BA-4697-A17B-86B1688A079D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem.Shared", "BankAccountSystem.Shared\BankAccountSystem.Shared.csproj", "{8EF317A7-D1AA-44FE-978B-6586AED55787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{382F0EC8-C075-487C-BC7E-677E60102044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{382F0EC8-C075-487C-BC7E-677E60102044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{382F0EC8-C075-487C-BC7E-677E60102044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7439FDB3-5CD7-41F6-84BD-9C400C91AE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7439FDB3-5CD7-41F6-84BD-9C400C91AE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7439FDB3-5CD7-41F6-84BD-9C400C91AE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7439FDB3-5CD7-41F6-84BD-9C400C91AE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96870CFE-C2E3-49CA-98E6-0BAEC9208FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96870CFE-C2E3-49CA-98E6-0BAEC9208FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96870CFE-C2E3-49CA-98E6-0BAEC9208FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96870CFE-C2E3-49CA-98E6-0BAEC9208FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8E2CA7-08BA-4697-A17B-86B1688A079D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8E2CA7-08BA-4697-A17B-86B1688A079D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8E2CA7-08BA-4697-A17B-86B1688A079D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8E2CA7-08BA-4697-A17B-86B1688A079D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF317A7-D1AA-44FE-978B-6586AED55787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF317A7-D1AA-44FE-978B-6586AED55787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF317A7-D1AA-44FE-978B-6586AED55787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF317A7-D1AA-44FE-978B-6586AED55787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
